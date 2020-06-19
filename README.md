@@ -12,8 +12,8 @@ make sure you have node installed
 % npm install -g @angular/cli@8.3.12
 
 % ng new Angular-Starter
-	--routing? yes
-	--scss
+	//--routing? yes
+	//--scss
 
 cd Angular-Starter
 
