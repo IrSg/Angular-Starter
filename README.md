@@ -1,11 +1,11 @@
 This is a basic app we're working on to learn about Angular.
 
-#Good Tutorials and resources:
+# Good Tutorials and resources:
 https://developer.okta.com/blog/2019/01/30/first-angular-pwa
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-#Commands to create
+# Commands to create
 
 make sure you have node installed 
 
@@ -21,7 +21,7 @@ cd Angular-Starter
 
 % ng serve --aot //bundles code with webpack using live reload (can leave out the AOT if this creates errors)
 
-#Clean out app.component.html
+# Clean out app.component.html
 
 This is the spot that serves up the view.
 
@@ -43,7 +43,7 @@ You'll want to create a route for it in app-routing.module.ts
 
 [Note: the app.module and app-routing.module stuff will be different if you are doing lazy-loading, which is a good practice.]
 
-*Discussed June 19, 2020*
+# Discussed June 19, 2020
 -why Angular 
 -AngularJS v Angular
 -what a framework does
@@ -52,7 +52,7 @@ You'll want to create a route for it in app-routing.module.ts
 -inserting typescript variables
 -changing typescript variables (with "this")
 
-*Next Concepts*
+# Next Concepts
 -ngIf
 -ngFor
 -routing
@@ -61,4 +61,4 @@ You'll want to create a route for it in app-routing.module.ts
 -services
 -components talking to each other (subscriptions)
 -calling an api (http and fetch)
-# Angular-Starter
+
