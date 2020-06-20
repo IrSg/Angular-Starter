@@ -19,7 +19,9 @@ cd Angular-Starter
 
 # Run the App
 
-% ng serve --aot //bundles code with webpack using live reload (can leave out the AOT if this creates errors)
+% ng serve --aot //bundles code with webpack using live reload (can leave out the aot if this creates errors)
+
+//go to localhost:4200 to view the app 
 
 # Clean out app.component.html
 
