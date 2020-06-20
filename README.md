@@ -1,7 +1,9 @@
 This is a basic app we're working on to learn about Angular.
 
 # Good Tutorials and resources:
-https://developer.okta.com/blog/2019/01/30/first-angular-pwa
+Main Angular documentation and tutorial from Google: https://angular.io/guide/setup-local
+
+Practical tutorial: https://developer.okta.com/blog/2019/01/30/first-angular-pwa
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
