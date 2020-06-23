@@ -1,5 +1,16 @@
 <p>our-second-component works!</p>
 
+<!--interact with a variable-->
 <div>{{helloVariable}}</div>
 
-<button (click)="coolFunction()">Click Me!</button>
+<button (click)="coolFunction()">Click Me to Change Variable</button>
+<br/>
+<!--*ngIf-->
+<button (click)="showDivFunc()" style="margin-top: 20px">Click Me to show the div</button>
+<div *ngIf="showTheDiv === 'show it!'">The div is shown</div>
+<br/>
+<!--*ngFor-->
+<button (click)="showArrayFunc()" style="margin-top: 20px">Click Me to show the array</button>
+<div *ngFor="let coolItem of arrayItems">
+	<div>result: {{coolItem}}</div>
+</div>

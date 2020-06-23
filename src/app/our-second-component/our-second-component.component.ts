@@ -8,18 +8,34 @@ import { Component, OnInit } from '@angular/core';
 
 export class OurSecondComponentComponent implements OnInit {
   public helloVariable = 'Life is Great'
+  public showTheDiv: any
+  public arrayItems: Array<any> = [];
+
+
 
   constructor() { }
 
   ngOnInit() {
-  	this.helloVariable = 'Life is supa dupa great'
-    this.coolFunction()
+    console.log('the second component is initialized')
   }
 
   coolFunction(){
   	//this function will now run when the page is initialized and when you click the button in the html
-  	alert('you are now running a function')
   	this.helloVariable = 'It Worked! It Changed'
   }
+
+  showDivFunc(){
+    if (this.showTheDiv === 'show it!'){
+      this.showTheDiv = "hide it!"
+    } else {
+      this.showTheDiv = 'show it!'
+    }    
+  }
+
+  showArrayFunc(){
+    this.arrayItems = ['hello', 'here', 'is', 'an', 'array']
+  }
+
+
 
 }
