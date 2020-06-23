@@ -19,4 +19,8 @@ export class AmazingFirstComponentComponent implements OnInit {
   ngOnInit() {
   }
 
+  talkToComponent2(){
+    //call the service.
+  }
+
 }

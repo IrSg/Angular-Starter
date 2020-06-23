@@ -34,8 +34,12 @@ export class OurSecondComponentComponent implements OnInit {
 
   showArrayFunc(){
     this.arrayItems = ['hello', 'here', 'is', 'an', 'array']
+    this.anotherGreatFunc()
   }
 
+  anotherGreatFunc(){
+    console.log('great job!')
+  }
 
 
 }

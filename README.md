@@ -56,13 +56,23 @@ You'll want to create a route for it in app-routing.module.ts
 -inserting typescript variables
 -changing typescript variables (with "this")
 
-# Next Concepts
+# Discussed June 23, 2020
+-environmental variables
+-don't include api keys on the front end (house them on the backend)
 -ngIf
 -ngFor
--routing
--ngClass
--inserting other components in html
--services
--components talking to each other (subscriptions)
+-inserting one component into another
+-introduction to components talking to each other through a service
+-introduction to https and fetch requests
+
+# Next
+-I will code up an example of communication through a service
+-I will code up an example of routing
+
+# Further Concepts to explore (tbd)
 -calling an api (http and fetch)
+-ngClass
+-design/styling with Angular Material
+-forms
+
 
