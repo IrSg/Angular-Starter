@@ -96,9 +96,11 @@ To navigate from the second component to the third component, I import the Angul
 -introduction to components talking to each other through a service
 -introduction to https and fetch requests
 
-# Next
--I will code up an example of communication through a service
--I will code up an example of routing
+# Done June 25, 2020
+-working example of components communicating through a service (using Observables, Subscription, and Subject)
+-change home page to second component
+-routing between components
+-put all components into components folder, with related adjustments to import statements, for more clear file organization
 
 # Further Concepts to explore (tbd)
 -calling an api (http and fetch)
