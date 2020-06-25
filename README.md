@@ -47,7 +47,7 @@ You'll want to create a route for it in app-routing.module.ts
 
 [Note: the app.module and app-routing.module stuff will be different if you are doing lazy-loading, which is a good practice.]
 
-#Key Angular view options
+# Key Angular view options
 
 See our-second-component for basic examples of: 
 
@@ -56,9 +56,9 @@ ngIf
 ngFor 
 inserting another component view
 
-#Components talking to each other through a service
+# Components talking to each other through a service
 
-to create a service, run: % ng g service services/[service path]
+To create a service, run: % ng g service services/[service path]
 
 This loads the key setup in the service file. Note the imports from rxjs in the service (Observable, Subject) and in the receiving component (Subscription)
 
@@ -72,10 +72,10 @@ our-second-component subscribes to the sendMessageFunction(), so it gets the mes
 #Routing with the Angular Router
 
 # Discussed June 19, 2020
--why Angular 
--AngularJS v Angular
--what a framework does
--basic structure of Angular
+why Angular 
+AngularJS v Angular
+what a framework does
+basic structure of Angular
 -setting up an Angular app
 -inserting typescript variables
 -changing typescript variables (with "this")
