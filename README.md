@@ -68,7 +68,7 @@ awesomeService receive the message in its setMessage() function. setMessage() th
 
 our-second-component subscribes to the sendMessageFunction(), so it gets the message and takes action from there.
 
-#Routing, including with the Angular Router
+# Routing, including with the Angular Router
 
 src/app/app-routing.module.ts controls the routes in our structure (note this will load all components whenever the app starts up. The alternative, and more efficient way, is "lazy loading", where you only load a component as it is called by the user. We may discuss this later in the summer.)
 
@@ -98,8 +98,11 @@ To navigate from the second component to the third component, I import the Angul
 
 # Done June 25, 2020
 -working example of components communicating through a service (using Observables, Subscription, and Subject)
+
 -change home page to second component
+
 -routing between components
+
 -put all components into components folder, with related adjustments to import statements, for more clear file organization
 
 # Further Concepts to explore (tbd)
