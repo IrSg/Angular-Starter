@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AwesomeService } from '../services/awesome.service' //import service
 import { Subscription } from 'rxjs' //import subscription from rxjs
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-our-second-component',
@@ -16,7 +17,7 @@ export class OurSecondComponentComponent implements OnInit, OnDestroy {
   public getMessageSubscription: Subscription
   
 
-  constructor(public awesomeService: AwesomeService) { }
+  constructor(public awesomeService: AwesomeService, public router: Router) { } //load service and router
 
   ngOnInit() {
     console.log('the second component is initialized')
@@ -52,6 +53,11 @@ export class OurSecondComponentComponent implements OnInit, OnDestroy {
 
   anotherGreatFunc(){
     console.log('great job!')
+  }
+
+  routeToThirdComponent(){
+    //navigate to third component
+    this.router.navigate(['third'])
   }
 
 

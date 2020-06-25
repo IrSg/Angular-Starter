@@ -1,7 +1,7 @@
 <p>Second Component</p>
 
 <!--interact with a variable-->
-<div>{{helloVariable}}</div>
+<p>{{helloVariable}}</p>
 
 <button (click)="coolFunction()">Click Me to Change Variable</button>
 <br/>
@@ -10,22 +10,23 @@
 
 <!--*ngIf-->
 <button (click)="showDivFunc()" style="margin-top: 20px">Click Me to show the div</button>
-<div *ngIf="showTheDiv === 'show it!'">The div is shown</div>
+<h3 *ngIf="showTheDiv === 'show it!'">The div is shown</h3>
 <br/>
 
 
 <!--*ngFor-->
 <button (click)="showArrayFunc()" style="margin-top: 20px">Click Me to show the array</button>
 <div *ngFor="let coolItem of arrayItems">
-	<div>result: {{coolItem}}</div>
+	<p style="font-size: 12px; margin: 0px">result: {{coolItem}}</p>
 </div>
-<br/><br/>
 
 <!--get message from first component, through awesome-service -->
 
-<div>{{coolMessage}}</div>
+<h3>{{coolMessage}}</h3>
 
 <!--component within a component-->
 <div style="margin-top: 15px">
 	<app-amazing-first-component></app-amazing-first-component>
 </div>
+
+<button style="margin-top: 15px" (click)="routeToThirdComponent()">Click me to go to third component</button>
