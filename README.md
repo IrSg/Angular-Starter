@@ -72,7 +72,11 @@ our-second-component subscribes to the sendMessageFunction(), so it gets the mes
 
 src/app/app-routing.module.ts controls the routes in our structure (note this will load all components whenever the app starts up. The alternative, and more efficient way, is "lazy loading", where you only load a component as it is called by the user. We may discuss this later in the summer.)
 
+I've made the second component our home page. See app-routing.module.ts
 
+I've created a third component here. Note the addition of the path to app-routing.module.ts
+
+To navigate from the second component to the third component, I import the Angular router, and then navigate using the command "this.router.navigate([PATH-NAME])".  See the routeToThirdComponent() function in the second component.
 
 # Discussed June 19, 2020
 -why Angular 
