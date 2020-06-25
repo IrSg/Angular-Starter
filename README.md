@@ -68,14 +68,17 @@ awesomeService receive the message in its setMessage() function. setMessage() th
 
 our-second-component subscribes to the sendMessageFunction(), so it gets the message and takes action from there.
 
+#Routing, including with the Angular Router
 
-#Routing with the Angular Router
+src/app/app-routing.module.ts controls the routes in our structure (note this will load all components whenever the app starts up. The alternative, and more efficient way, is "lazy loading", where you only load a component as it is called by the user. We may discuss this later in the summer.)
+
+
 
 # Discussed June 19, 2020
-why Angular 
-AngularJS v Angular
-what a framework does
-basic structure of Angular
+-why Angular 
+-AngularJS v Angular
+-what a framework does
+-basic structure of Angular
 -setting up an Angular app
 -inserting typescript variables
 -changing typescript variables (with "this")

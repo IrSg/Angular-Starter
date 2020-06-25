@@ -2,7 +2,6 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AwesomeService } from '../services/awesome.service' //import service
 import { Subscription } from 'rxjs' //import subscription from rxjs
 
-
 @Component({
   selector: 'app-our-second-component',
   templateUrl: './our-second-component.component.html',
