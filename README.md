@@ -47,6 +47,30 @@ You'll want to create a route for it in app-routing.module.ts
 
 [Note: the app.module and app-routing.module stuff will be different if you are doing lazy-loading, which is a good practice.]
 
+#Key Angular view options
+
+See our-second-component for basic examples of: 
+
+inserting a variable in the view
+ngIf
+ngFor 
+inserting another component view
+
+#Components talking to each other through a service
+
+to create a service, run: % ng g service services/[service path]
+
+This loads the key setup in the service file. Note the imports from rxjs in the service (Observable, Subject) and in the receiving component (Subscription)
+
+In this example, a button in amazing-first-component.html calls the function talkToComponent2(). This sends the message to awesomeService.
+
+awesomeService receive the message in its setMessage() function. setMessage() then sends out the message contents, which sendMessageFunction() (an observable) receives, and sends out.
+
+our-second-component subscribes to the sendMessageFunction(), so it gets the message and takes action from there.
+
+
+#Routing with the Angular Router
+
 # Discussed June 19, 2020
 -why Angular 
 -AngularJS v Angular

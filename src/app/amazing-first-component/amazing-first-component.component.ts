@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AwesomeService } from '../services/awesome.service'  //note this is how I import Awesome Service
 
 @Component({
   selector: 'app-amazing-first-component',
@@ -6,21 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./amazing-first-component.component.scss']
 })
 export class AmazingFirstComponentComponent implements OnInit {
-  //add router
 
-  //add component within another component (ex--mission component, go/game-session and vimeo component)
 
-  //add service to coordinate and house the information
-
-  public firstVar = 'Hi, I am a variable'
-
-  constructor() { }
+  constructor(public awesomeService: AwesomeService) {  //note: here, in the constructor, is where I create the reference to the service
+  }
 
   ngOnInit() {
   }
 
   talkToComponent2(){
-    //call the service.
+    let message = 'button from first component has been clicked!'
+    this.awesomeService.setMessage(message) //send the message to the service
   }
 
 }
