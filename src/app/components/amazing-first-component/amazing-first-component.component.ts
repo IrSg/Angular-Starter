@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AwesomeService } from '../services/awesome.service'  //note this is how I import Awesome Service
+import { AwesomeService } from '../../services/awesome.service'  //note this is how I import Awesome Service
 
 @Component({
   selector: 'app-amazing-first-component',

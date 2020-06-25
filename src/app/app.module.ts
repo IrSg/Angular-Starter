@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AmazingFirstComponentComponent } from './amazing-first-component/amazing-first-component.component';
-import { OurSecondComponentComponent } from './our-second-component/our-second-component.component';
-import { ThirdComponent } from './third/third.component';
+import { AmazingFirstComponentComponent } from './components/amazing-first-component/amazing-first-component.component';
+import { OurSecondComponentComponent } from './components/our-second-component/our-second-component.component';
+import { ThirdComponent } from './components/third/third.component';
 
 @NgModule({
   declarations: [

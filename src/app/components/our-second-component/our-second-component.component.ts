@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { AwesomeService } from '../services/awesome.service' //import service
+import { AwesomeService } from '../../services/awesome.service' //import service
 import { Subscription } from 'rxjs' //import subscription from rxjs
 import { Router } from '@angular/router';
 
