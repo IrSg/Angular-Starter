@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AmazingFirstComponentComponent } from './amazing-first-component/amazing-first-component.component';
 import { OurSecondComponentComponent } from './our-second-component/our-second-component.component';
+import { ThirdComponent } from './third/third.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AmazingFirstComponentComponent,
-    OurSecondComponentComponent
+    OurSecondComponentComponent,
+    ThirdComponent
   ],
   imports: [
     BrowserModule,
