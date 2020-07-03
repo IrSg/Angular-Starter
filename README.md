@@ -7,7 +7,7 @@ Practical tutorial: https://developer.okta.com/blog/2019/01/30/first-angular-pwa
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-Note that the main action in this app is here: https://github.com/IrSg/Angular-Starter/tree/master/src/app.
+**Note that the main action in this app is here: https://github.com/IrSg/Angular-Starter/tree/master/src/app.**
 
 # Commands to create
 
