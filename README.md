@@ -1,4 +1,4 @@
-This is a basic app we're working on to learn about Angular.
+This is a basic app for people to learn how to build with Angular very fast. Used with a team in 2020.
 
 # Good Tutorials and resources:
 Main Angular documentation and tutorial from Google: https://angular.io/guide/setup-local
@@ -107,7 +107,7 @@ To navigate from the second component to the third component, I import the Angul
 
 -put all components into components folder, with related adjustments to import statements, for more clear file organization
 
-# Further Concepts to explore (tbd)
+# Further Concepts to explore 
 -calling an api (http and fetch)
 -ngClass
 -design/styling with Angular Material
