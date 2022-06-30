@@ -1,4 +1,4 @@
-This is a basic app for people to learn how to build with Angular very fast. Used with a team in 2020.
+This is a basic app for people to learn how to build with Angular very fast. Used to teach a team of smart developers who were new to Angular in 2020.
 
 # Good Tutorials and resources:
 Main Angular documentation and tutorial from Google: https://angular.io/guide/setup-local
